@@ -1,0 +1,8 @@
+---
+ - name: Install MC
+   hosts: all
+   become: yes
+
+ - tasks:
+   - name: Install MC
+
