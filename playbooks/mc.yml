@@ -3,6 +3,6 @@
    hosts: all
    become: yes
 
- - tasks:
+   tasks:
    - name: Install MC
-
+     yum: name=mc state=latest
